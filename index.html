@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="src/css/style.css" type="text/css">
+</head>
+
+<body>
+    <section class="text-center container-sm mx-auto">
+        <h1>PASSWORD GENERATOR</h1>
+        <div class="container-sm">
+            <input 
+            type="text" placeholder="password"
+            id="password" size="10" readonly
+            class="text-center" onclick="copytext()">
+            <button onclick="generatePassword()" type="button" >GENERATE</button>
+        </div>
+    </section>
+
+    <!-- Javascript      -->
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>

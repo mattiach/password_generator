@@ -1,0 +1,27 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+/* Elements */
+body {background-color: #282c34;color: whitesmoke;font-family: 'Heebo', sans-serif, Arial, Helvetica;}
+section {width: 700px;margin-top: 200px;}
+h1, button {font-weight: 400 !important;}
+button, input {font-size: 3em;}
+h1 {font-size: 3.1em;}
+input,h1 {cursor: pointer;}
+input:focus {outline: none;}
+
+button {
+    padding-top: 10.3px;
+    padding-bottom: 10.3px;
+    border-style: none;
+    background-color: brown;
+    color: whitesmoke;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {button,input {font-size: 2em;line-height: 1;}h1 {font-size: 2.15em;}}
+@media screen and (max-width: 420px) {button {line-height: 1;}input, button {font-size: 1.5em;}h1 {font-size: 1.65em;}}
+@media screen and (max-width: 350px) {button {font-size: 1.22em;line-height: 1;}input {font-size: 1.4em;}h1 {font-size: 1.4em;}}
